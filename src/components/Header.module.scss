@@ -1,6 +1,7 @@
 @import "./../styles/variables.scss";
 
 .header {
+    box-sizing: border-box;
     background: $dark;
     width: 100%;
     height: $headerHeight;

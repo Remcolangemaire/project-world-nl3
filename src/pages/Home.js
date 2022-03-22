@@ -1,7 +1,16 @@
 import React from "react";
+import './home.scss';
+import image from "../images/Untitled-3.png";
+import Header from "../components/Header";
+
+const img = image;
 
 const Home = () => {
-    return <h1>Home</h1>;
+    return (
+        <div className="container">
+            h
+        </div>
+    );
 };
 
 export default Home;
