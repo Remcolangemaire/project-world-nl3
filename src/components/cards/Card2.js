@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button'
 import imgJ from '../../images/IMG_9761.jpg'
 import './cards.scss'
 
-const Card1 = () => {
+const Card2 = () => {
   return (
     <Card style={{ width: '18rem' }}>
       <Card.Img className='card-image' variant="top" src={imgJ}  />
@@ -20,4 +20,4 @@ const Card1 = () => {
   )
 }
 
-export default Card1
+export default Card2
