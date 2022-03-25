@@ -1,11 +1,6 @@
-// .carousel-container{
-//     height: 50%;
-// }
-
-// img{
-//     height: 50%;
-// }
-
-// .d-block{
-//     height: 50%;
-// }
+.carousel-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}

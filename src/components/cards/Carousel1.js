@@ -6,28 +6,29 @@ import Card1 from './Card1'
 import Card2 from './Card2'
 import Card3 from './Card3'
 
-const Carousel1 = () => {
+const Carousel1 = ({number}) => {
   return (
-    <Carousel className='carousel-container' interval={null} controls= {false} indicatorLabels ={[Card1, Card2, Card3]} indicators={false}>
-      <Carousel.Item>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-      </Carousel.Item>
-      <Carousel.Item>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </Carousel.Item>
-      <Carousel.Item>
-          <h3>Third slide label</h3>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-      </Carousel.Item>
-    </Carousel>
+    <div className='carousel-container'>
+      <Carousel interval={null} controls= {false} activeIndex ={number} indicators={false}>
+        <Carousel.Item>
+            <h3>First slide label</h3>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </Carousel.Item>
+        <Carousel.Item>
+            <h3>Second slide label</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </Carousel.Item>
+        <Carousel.Item>
+            <h3>Third slide label</h3>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        </Carousel.Item>
+      </Carousel>
+    </div>
   )
 }
 
-FormatCard() {
-  const {count} = Card1.s
+Carousel1.defaultProps ={
+  number: 1
 }
-
 export default Carousel1
 
