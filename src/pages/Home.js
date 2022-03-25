@@ -1,14 +1,13 @@
 import React from "react";
 import './home.scss';
-import image from "../images/Untitled-3.png";
-import Header from "../components/header/Header";
-
-const img = image;
+import HomeMap from "../components/homeMap/HomeMap";
+import AboutUs from "../components/aboutUs/AboutUs";
 
 const Home = () => {
     return (
-        <div className="container">
-            h
+        <div className="hero-container">
+            <HomeMap/>
+            <AboutUs/>
         </div>
     );
 };
