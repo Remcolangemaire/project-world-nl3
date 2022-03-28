@@ -6,7 +6,7 @@ import Card from '../cards/Card'
 import imgJ from '../../images/IMG_9761.jpg'
 
 const AboutUs = () => {
-  const [number, setNuber] = useState('')
+  // const [number, setNuber] = useState('')
   const onClick = (type) => {
     // onchange={(e) => setNuber(e.type)};
   }
@@ -35,7 +35,8 @@ const AboutUs = () => {
         </div>
       </Row>
       <Row>
-        <Carousel1 number={1}/>
+        <Carousel1 number={1
+        }/>
       </Row>
     </div>
   )
