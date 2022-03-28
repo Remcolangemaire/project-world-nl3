@@ -35,7 +35,8 @@ const AboutUs = () => {
         </div>
       </Row>
       <Row>
-        <Carousel1 number={1}/>
+        <Carousel1 number={1
+        }/>
       </Row>
     </div>
   )

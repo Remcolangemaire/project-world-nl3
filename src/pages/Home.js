@@ -8,6 +8,7 @@ const Home = () => {
     return (
         <div className="hero-container">
             <Front/>
+            <Front/>
             <HomeMap/>
             <AboutUs/>
         </div>
