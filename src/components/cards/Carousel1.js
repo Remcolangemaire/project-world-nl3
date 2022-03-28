@@ -1,6 +1,10 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel'
 import './carousel1.scss'
+import carouselImage from '../../images/IMG_0639.jpg'
+import Card1 from './Card1'
+import Card2 from './Card2'
+import Card3 from './Card3'
 
 const Carousel1 = ({number}) => {
   return (
