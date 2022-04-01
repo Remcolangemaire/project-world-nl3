@@ -4,38 +4,27 @@ import Carousel1 from '../cards/Carousel1'
 import { Row } from 'react-bootstrap'
 import Card from '../cards/Card'
 import imgJ from '../../images/IMG_9761.jpg'
+import profimage from '../../images/round.png'
 
 const AboutUs = () => {
-  const [number, setNuber] = useState('')
-  const onClick = (type) => {
-    // onchange={(e) => setNuber(e.type)};
-  }
+  const [number, setNuber] = useState(0);
   return (
     <div className='about-hero-container'>
-      <Row>
+      <Row className="content-containers">
         <div className="wrapper">
-          <button onClick={onClick (0)}>          
-            <Card
-            img= {imgJ}
-            title="Remco "
-            description="Dit is wat boring text"
-          /></button>
-          <button onClick={onClick (1)}>          
-            <Card
-            img={imgJ}
-            title="Jord "
-            description="Dit is wat boring text"
-          /></button>
-          <button onClick={onClick (2)}>    
-            <Card 
-            img={imgJ}
-            title="Jos"
-            description="Dit is wat boring text"
-          /></button>
+          <div onClick={() => setNuber(0)}>          
+            <img src={profimage} alt='Remco'/>
+          </div>
+          <div onClick={() => setNuber(1)}>          
+            <img src={profimage} alt='Remco'/>
+          </div>
+          <div onClick={() => setNuber(2)}>    
+            <img src={profimage} alt='Remco'/>
+          </div>
         </div>
       </Row>
       <Row>
-        <Carousel1 number={1}/>
+        <Carousel1 number={number}/>
       </Row>
     </div>
   )
