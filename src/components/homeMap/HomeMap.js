@@ -1,11 +1,13 @@
 import React from 'react'
 import './homeMap.scss'
+import Maps from '../googleMaps/Maps'
 
 const HomeMap = () => {
   return (
     <div className='map-hero-container'>
-        <h1>Hier komt de map</h1>
-        <p>lol dit is onzin</p>
+        <div className="card">
+          <Maps/>
+        </div>
     </div>
   )
 }
