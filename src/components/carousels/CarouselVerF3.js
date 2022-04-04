@@ -2,7 +2,7 @@ import React from 'react'
 import Carousel from 'react-bootstrap/Carousel'
 import './carousel.scss'
 
-const CarouselF3 = (number, props) => {
+const CarouselVerF3 = (number, props) => {
   return (
     <div className='foto-carousel-container'>
     <Carousel interval={null} controls= {false} activeIndex ={number} indicators={false}>
@@ -20,4 +20,4 @@ const CarouselF3 = (number, props) => {
   )
 }
 
-export default CarouselF3;
+export default CarouselVerF3;
