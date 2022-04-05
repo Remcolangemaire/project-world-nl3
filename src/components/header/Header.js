@@ -45,7 +45,7 @@ const Header = () => {
         <header className={classes.header}>
             <div className={classes.header__content}>
                 <Link to="/" className={classes.header__content__logo}>
-                    navbar
+                    ProjectWorldNL
                 </Link>
                 <nav
                     className={`${classes.header__content__nav} ${

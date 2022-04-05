@@ -5,7 +5,7 @@ import './carousel.scss'
 const CarouselF3 = (props) => {
   return (
     <div className='foto-carousel-container'>
-    <Carousel indicators={false}>
+    <Carousel indicators={false} interval={null}>
       <Carousel.Item>
         <img src={props.img1} alt={props.alt} />
       </Carousel.Item>
