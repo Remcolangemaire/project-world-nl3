@@ -7,7 +7,7 @@ import carouselImage from '../../images/IMG_0639.jpg'
 
 const Carousel1 = ({number}) => {
   return (
-    <div className='carousel-container'>
+    <div className='carousel-container aboutus-text'>
       <Carousel interval={null} controls= {false} activeIndex ={number} indicators={false}>
         <Carousel.Item>
             <h3>First slide label</h3>
