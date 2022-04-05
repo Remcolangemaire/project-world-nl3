@@ -12,3 +12,14 @@
 .frontheadline-text{
     color: white;
 }
+
+.Iceland-front-hero-container{
+    background: url('../../images/IMG_0639.jpg') center center/cover no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}

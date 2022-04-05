@@ -19,8 +19,10 @@ Her extensive perceived may any sincerity extremity. Indeed add rather may prett
 View fine me gone this name an rank. Compact greater and demands mrs the parlors. Park be fine easy am size away. Him and fine bred knew. At of hardly sister favour. As society explain country raising weather of. Sentiments nor everything off out uncommonly partiality bed.</p>
         </Carousel.Item>
         <Carousel.Item>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>Jord</h3>
+            <p>
+Hey! I’m Jord, I’m an adventure/travel photographer based in Noordwijk, NL. I’m currently the main photographer behind ProjectWorldNL, and love to travel the world to tell our story through my photography. By sharing our experiences and encouraging others to go out and explore. 
+At the moment I’m unfortunately not able to fully live the dream, because I’m still a third year Industrial Design student. But would love to make this a full time job!</p>
         </Carousel.Item>
         <Carousel.Item>
             <h3>Third slide label</h3>
