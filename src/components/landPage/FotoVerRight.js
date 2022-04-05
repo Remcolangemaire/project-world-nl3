@@ -7,7 +7,7 @@ const FotoVerRight = (props) => {
   return (
     <Container >
     <Row>
-      <Col>
+      <Col sm={7}>
         <div className='vertical'>
             <TextCard title={props.title1} description={props.description1}/>
         </div>

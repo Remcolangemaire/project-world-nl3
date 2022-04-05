@@ -9,7 +9,7 @@ import profimage from '../../images/round.png'
 const AboutUs = () => {
   const [number, setNuber] = useState(0);
   return (
-    <div className='about-hero-container'>
+    <div className='about-hero-container imgas'>
       <Row className="content-containers">
         <div className="wrapper">
           <div onClick={() => setNuber(0)}>          

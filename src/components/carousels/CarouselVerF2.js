@@ -7,10 +7,10 @@ const CarouselVerF2 = (props) => {
     <div className='foto-carousel-container'>
     <Carousel indicators={false}>
       <Carousel.Item>
-        <img src={props.img1} alt={props.alt} className='imga'/>
+        <img src={props.img1} alt={props.alt}/>
       </Carousel.Item>
       <Carousel.Item >
-        <img src={props.img2} alt={props.alt} className='imga'/>
+        <img src={props.img2} alt={props.alt}/>
       </Carousel.Item>
     </Carousel>
   </div>

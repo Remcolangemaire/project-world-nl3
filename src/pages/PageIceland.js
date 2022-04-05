@@ -24,6 +24,7 @@ const PageOne = () => {
                 Rem ipsum sint sed doloremque repudiandae 33 soluta corporis et esse distinctio id nisi ipsam eos fuga velit et aliquam velit. Rem doloribus iusto sed earum galisum et quis galisum vel repellat voluptatem. Aut eligendi blanditiis ut ducimus animi aut voluptatum quis et corrupti dicta est totam rerum id optio voluptatem? Aut assumenda necessitatibus et animi architecto est soluta atque aut omnis odio rem dolore explicabo."
                 />
             </div>
+            <hr></hr>
             <div className=" componenten-container">
                 <FotoLeft
                 img1= {imgG}
