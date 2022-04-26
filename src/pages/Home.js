@@ -3,6 +3,7 @@ import './home.scss';
 import HomeMap from "../components/homeMap/HomeMap";
 import AboutUs from "../components/aboutUs/AboutUs";
 import Front from "../components/frontPage/Front";
+import Footer from '../components/footer/Footer'
 
 const Home = () => {
     return (
@@ -10,6 +11,7 @@ const Home = () => {
             <Front/>
             <HomeMap/>
             <AboutUs/>
+            <Footer/>
         </div>
     );
 };
