@@ -3,9 +3,9 @@ import './front.scss'
 
 const Front = () => {
   return (
-    <div className='front-hero-container'>
-        <h1>Hier komt de map</h1>
-        <p>lol dit is onzin</p>
+    <div className='front-hero-container frontheadline-text'>
+        <h1>Project World Nl </h1>
+        <p>Trip around the world</p>
     </div>
   )
 }
