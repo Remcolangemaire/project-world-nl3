@@ -5,9 +5,8 @@ import Maps from '../googleMaps/Maps'
 const HomeMap = () => {
   return (
     <div className='map-hero-container'>
-
-          <Maps/>
-
+      <h1>Where to?</h1>
+      <Maps/>
     </div>
   )
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import AboutUs from "../components/aboutUs/AboutUs";
-import Footer from '../components/footer/Footer'
+import Footer from '../components/Contact/MailContact'
 
 const PageThree = () => {
     return (

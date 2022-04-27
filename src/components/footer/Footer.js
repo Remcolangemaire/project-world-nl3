@@ -1,170 +1,48 @@
-import { useState } from 'react';
-import { useForm } from 'react-hook-form';
-import { ToastContainer, toast } from 'react-toastify';
-import emailjs from 'emailjs-com';
-import 'react-toastify/dist/ReactToastify.min.css';
-import './footer.scss'
-import { Col, Row} from 'react-bootstrap';
+import * as React from 'react';
+import PropTypes from 'prop-types';
+import Box from '@mui/material/Box';
+import Container from '@mui/material/Container';
+import Typography from '@mui/material/Typography';
+import { SocialIcon } from 'react-social-icons';
 
-const Footer = () => {
-  const {
-    register,
-    handleSubmit,
-    reset,
-    formState: { errors }
-  } = useForm();
-  const [disabled, setDisabled] = useState(false);
 
-  // Function that displays a success toast on bottom right of the page when form submission is successful
-  const toastifySuccess = () => {
-    toast('Form sent!', {
-      position: 'bottom-right',
-      autoClose: 5000,
-      hideProgressBar: true,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: false,
-      className: 'submit-feedback success',
-      toastId: 'notifyToast'
-    });
-  };
+function Copyright() {
+  return (
+    <Typography variant="body2" color="text.secondary" align="center">
+        <SocialIcon url="https://twitter.com/Remcolang" network="twitter" style={{marginRight: 15}}/>
+        <SocialIcon url="https://www.instagram.com/remcolangemaire/" network="instagram" style={{marginRight: 15}}/>
+        <SocialIcon url="https://www.youtube.com/channel/UC-qODza4NJhV_fJfnE1jWww" network="youtube" style={{marginRight: 15}}/>
+        <SocialIcon url="https://www.facebook.com/profile.php?id=100008816744304" network="facebook" />
+    </Typography>
+  );
+}
 
-  // Function called on submit that uses emailjs to send email of valid contact form
-  const onSubmit = async (data) => {
-    // Destrcture data object
-    const { name, email, subject, message } = data;
-    try {
-      // Disable form while processing submission
-      setDisabled(true);
-
-      // Define template params
-      const templateParams = {
-        name,
-        email,
-        subject,
-        message
-      };
-
-      // Use emailjs to email contact form data
-      await emailjs.send(
-        process.env.REACT_APP_SERVICE_ID,
-        process.env.REACT_APP_TEMPLATE_ID,
-        templateParams,
-        process.env.REACT_APP_USER_ID
-      );
-
-      // Reset contact form fields after submission
-      reset();
-      // Display success toast
-      toastifySuccess();
-      // Re-enable form submission
-      setDisabled(false);
-    } catch (e) {
-      console.log(e);
-    }
-  };
+function Footer(props) {
+  const { description, title } = props;
 
   return (
-    <Row className='ContactForm'>
-        <Col>
-        <h1>hoi</h1>
-        </Col>
-        <Col>
-        <div className='container'>
-            <div className='row'>
-            <div className='col-12 text-center'>
-                <div className='contactForm'>
-                <form id='contact-form' onSubmit={handleSubmit(onSubmit)} noValidate>
-                    {/* Row 1 of form */}
-                    <div className='row formRow'>
-                    <div className='col-6'>
-                        <input
-                        type='text'
-                        name='name'
-                        {...register('name', {
-                            required: {
-                            value: true,
-                            message: 'Please enter your name'
-                            },
-                            maxLength: {
-                            value: 30,
-                            message: 'Please use 30 characters or less'
-                            }
-                        })}
-                        className='form-control formInput'
-                        placeholder='Name'
-                        ></input>
-                        {errors.name && <span className='errorMessage'>{errors.name.message}</span>}
-                    </div>
-                    <div className='col-6'>
-                        <input
-                        type='email'
-                        name='email'
-                        {...register('email', {
-                            required: true,
-                            pattern:
-                            /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
-                        })}
-                        className='form-control formInput'
-                        placeholder='Email address'
-                        ></input>
-                        {errors.email && (
-                        <span className='errorMessage'>Please enter a valid email address</span>
-                        )}
-                    </div>
-                    </div>
-                    {/* Row 2 of form */}
-                    <div className='row formRow'>
-                    <div className='col'>
-                        <input
-                        type='text'
-                        name='subject'
-                        {...register('subject', {
-                            required: {
-                            value: true,
-                            message: 'Please enter a subject'
-                            },
-                            maxLength: {
-                            value: 75,
-                            message: 'Subject cannot exceed 75 characters'
-                            }
-                        })}
-                        className='form-control formInput'
-                        placeholder='Subject'
-                        ></input>
-                        {errors.subject && (
-                        <span className='errorMessage'>{errors.subject.message}</span>
-                        )}
-                    </div>
-                    </div>
-                    {/* Row 3 of form */}
-                    <div className='row formRow'>
-                    <div className='col'>
-                        <textarea
-                        rows={3}
-                        name='message'
-                        {...register('message', {
-                            required: true
-                        })}
-                        className='form-control formInput'
-                        placeholder='Message'
-                        ></textarea>
-                        {errors.message && <span className='errorMessage'>Please enter a message</span>}
-                    </div>
-                    </div>
-
-                    <button className='submit-btn' disabled={disabled} type='submit'>
-                    Submit
-                    </button>
-                </form>
-                </div>
-                <ToastContainer />
-            </div>
-            </div>
-        </div>
-        </Col>
-    </Row>
+    <Box component="footer" sx={{ bgcolor: 'background.paper', py: 6 }}>
+      <Container maxWidth="lg">
+        <Typography variant="h6" align="center" gutterBottom>
+          <h1>Follow</h1>
+        </Typography>
+        <Typography
+          variant="subtitle1"
+          align="center"
+          color="text.secondary"
+          component="p"
+        >
+          {description}
+        </Typography>
+        <Copyright />
+      </Container>
+    </Box>
   );
+}
+
+Footer.propTypes = {
+  description: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
 };
 
 export default Footer;
