@@ -35,7 +35,7 @@ At the moment I’m unfortunately not able to fully live the dream, because I’
         </Carousel.Item>
         <Carousel.Item>
             <h1>Third slide label</h1>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          <p>Who am I? To be honest some times I don't even know the awnser to that question. Others often call me crazy and impulsive, wich is something I can't argue with to be honest. Since I've given up my study to play for an e-sports team, I've finnaly been able to find out where my passion lies and who I am. I became a pretty succesfull coach and analist in the gaming industry. But decieded I wanted to take a step back from that life in 2022. Being a bit lost after quiting, I one day reciesved a message from a friend to go and travel the world. Offcourse I couldn't recist and had to say yes to this oppertunity. Which leads us to the current day, in wich were constantly looking at our next oppertunity to travel, explore and intorduce to others.  </p>
           <SocialIcon url="https://twitter.com/Remcolang" network="twitter" style={{marginRight: 15}}/>
           <SocialIcon url="https://www.instagram.com/remcolangemaire/" network="instagram" style={{marginRight: 15}}/>
           <SocialIcon url="https://www.youtube.com/channel/UC-qODza4NJhV_fJfnE1jWww" network="youtube" style={{marginRight: 15}}/>

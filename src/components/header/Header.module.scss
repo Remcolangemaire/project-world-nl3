@@ -1,8 +1,12 @@
 @import "../../styles/variables.scss";
 
 .header {
+    img{
+        height: 15vh;
+    }
     box-sizing: border-box;
-    background: $dark;
+    background: transparent;
+    position: absolute;
     width: 100%;
     height: $headerHeight;
     padding: 0 1.5rem;
@@ -24,10 +28,7 @@
         z-index: 100;
 
         &__logo {
-            font-size: 2rem;
-            font-weight: bold;
-            text-decoration: none;
-            color: $light;
+            float: left;
         }
 
         &__nav {
