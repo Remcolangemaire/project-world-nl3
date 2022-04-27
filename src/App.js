@@ -1,7 +1,7 @@
 import Layout from "./components/Layout";
 import { Switch, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import PageOne from "./pages/PageOne";
+import PageOne from "./pages/PageIceland";
 import PageTwo from "./pages/PageTwo";
 import PageThree from "./pages/PageThree";
 import PageCTA from "./pages/PageCTA";

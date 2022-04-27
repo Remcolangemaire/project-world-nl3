@@ -6,3 +6,14 @@
     flex-direction: column;
     object-fit: contain;
 }
+
+.content-containers{
+    padding-top: 15vh;
+}
+img{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    object-fit: contain;
+    float: right;
+  }

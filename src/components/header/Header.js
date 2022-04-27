@@ -45,7 +45,7 @@ const Header = () => {
         <header className={classes.header}>
             <div className={classes.header__content}>
                 <Link to="/" className={classes.header__content__logo}>
-                    navbar
+                    ProjectWorldNL
                 </Link>
                 <nav
                     className={`${classes.header__content__nav} ${
@@ -55,21 +55,21 @@ const Header = () => {
                     <ul>
                         <li>
                             <Link to="/page-one" onClick={menuToggleHandler}>
-                                PageOne
+                                Blog
                             </Link>
                         </li>
                         <li>
                             <Link to="/page-two" onClick={menuToggleHandler}>
-                                PageTwo
+                                Media
                             </Link>
                         </li>
                         <li>
                             <Link to="/page-three" onClick={menuToggleHandler}>
-                                PageThree
+                                Shop
                             </Link>
                         </li>
                     </ul>
-                    <button onClick={ctaClickHandler}>CTA Page</button>
+                    <button onClick={ctaClickHandler}>Contact</button>
                 </nav>
                 <div className={classes.header__content__toggle}>
                     {!menuOpen ? (
