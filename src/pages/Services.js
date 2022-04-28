@@ -1,12 +1,11 @@
 import React from "react";
-import Blog from "../components/blog/Blog";
 
-const S = () => {
+const Services = () => {
     return (
         <div >
-            <Blog/>
+            <h1>Hier komt iets</h1>
         </div>
     );
 };
 
-export default PageTwo;
+export default Services;
