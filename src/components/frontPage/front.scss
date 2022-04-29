@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
+
+
 .front-hero-container{
     background: url('../../images/DJI_0040.jpg') center center/cover no-repeat;
     height: 100vh;
@@ -10,7 +13,14 @@
 }
 
 .frontheadline-text{
-    color: white;
+    
+    font-family: Freehand;
+
+    h1{
+        font-size: 80px;
+        font-weight: bold;
+        color: white;
+    }
 }
 
 .Iceland-front-hero-container{

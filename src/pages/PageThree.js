@@ -1,7 +1,14 @@
 import React from "react";
+import AboutUs from "../components/aboutUs/AboutUs";
+import Footer from '../components/Contact/MailContact'
 
 const PageThree = () => {
-    return <h1>Page Three</h1>;
+    return (
+        <div className="hero-container">
+            <AboutUs/>
+            <Footer/>
+        </div>
+    );
 };
 
 export default PageThree;

@@ -6,6 +6,8 @@ import { AiOutlineClose } from "react-icons/ai";
 import classes from "./Header.module.scss";
 import { Link, useHistory } from "react-router-dom";
 
+import logo from '/Users/remcolangemaire/Documents/GitHub/project-world-nl3/src/images/Logo .PNG'
+
 const Header = () => {
     const history = useHistory();
     const [menuOpen, setMenuOpen] = useState(false);
@@ -45,7 +47,7 @@ const Header = () => {
         <header className={classes.header}>
             <div className={classes.header__content}>
                 <Link to="/" className={classes.header__content__logo}>
-                    ProjectWorldNL
+                <img src={logo} alt='logo'/>
                 </Link>
                 <nav
                     className={`${classes.header__content__nav} ${
@@ -54,22 +56,32 @@ const Header = () => {
                 >
                     <ul>
                         <li>
+                            <Link to="/page-Services
+                            " onClick={menuToggleHandler}>
+                                Services
+                            </Link>
+                        </li>
+                        <li>
                             <Link to="/page-one" onClick={menuToggleHandler}>
-                                Blog
+                                Shop
                             </Link>
                         </li>
                         <li>
                             <Link to="/page-two" onClick={menuToggleHandler}>
-                                Media
+                                Blog
                             </Link>
                         </li>
                         <li>
                             <Link to="/page-three" onClick={menuToggleHandler}>
-                                Shop
+                                About
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/page-three" onClick={menuToggleHandler}>
+                                Contact
                             </Link>
                         </li>
                     </ul>
-                    <button onClick={ctaClickHandler}>Contact</button>
                 </nav>
                 <div className={classes.header__content__toggle}>
                     {!menuOpen ? (

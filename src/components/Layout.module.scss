@@ -1,7 +1,7 @@
 @import "./../styles/variables.scss";
 
 .container {
-    height: calc(250em - #{$headerHeight});
+    // height: calc(250em - #{$headerHeight});
     background-image: url(../images/Untitled-3.png);
     background-size: cover;
     display: flex;
