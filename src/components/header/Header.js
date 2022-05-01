@@ -6,7 +6,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import classes from "./Header.module.scss";
 import { Link, useHistory } from "react-router-dom";
 
-import logo from '/Users/remcolangemaire/Documents/GitHub/project-world-nl3/src/images/Logo .PNG'
+import logo from '../../images/Logo .PNG'
 
 const Header = () => {
     const history = useHistory();
