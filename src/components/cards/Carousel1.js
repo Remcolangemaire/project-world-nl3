@@ -6,10 +6,10 @@ import { SocialIcon } from 'react-social-icons';
 
 const Carousel1 = ({number}) => {
   return (
-    <Container className='carousel-container aboutus-text' style={{
+    <Container className='aboutus-text' style={{
       paddingTop: 20, paddingRight: 100, paddingLeft:100, paddingBottom: 20
     }}>
-      <Carousel interval={null} controls= {false} activeIndex ={number} indicators={false}>
+      <Carousel className='carousel-container' interval={null} controls= {false} activeIndex ={number} indicators={false}>
         <Carousel.Item>
             <h1>Remco</h1>
             <p>
