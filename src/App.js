@@ -6,6 +6,7 @@ import BlogPage from "./pages/BlogPage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import Services from "./pages/Services";
+import ShopPage from "./pages/ShopPage";
 
 function App() {
     return (
@@ -15,7 +16,7 @@ function App() {
                     <Home />
                 </Route>
                 <Route path="/page-shop">
-                    <PageIceland />
+                    <ShopPage />
                 </Route>
                 <Route path="/page-blog">
                     <BlogPage />

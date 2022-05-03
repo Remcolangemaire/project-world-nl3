@@ -9,7 +9,6 @@ const Home = () => {
         <div className="hero-container">
             <Front/>
             <HomeMap/>
-            <AboutUs/>
         </div>
     );
 };
