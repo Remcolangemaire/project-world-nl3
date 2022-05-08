@@ -1,7 +1,13 @@
 import React from "react";
+import Contact from "../components/Contact/Contact";
+import './pages.scss'
 
 const PageCTA = () => {
-    return <h1>CTA Page</h1>;
+    return (
+        <div className="header-padding background-contact">
+            <Contact/>
+        </div>
+    )
 };
 
 export default PageCTA;
