@@ -1,0 +1,22 @@
+#contact-container{
+    width: 1200px;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    background: white;
+    .contact-info{
+        background-color: #5904c2;
+        flex: 0 1 40%;
+        border-radius: 15px;
+        padding: 40px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        h4{
+            font-size: 2rem;
+            font-weight: 500;
+            margin-top: 0;
+        }
+    }
+}

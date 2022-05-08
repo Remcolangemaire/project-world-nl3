@@ -12,7 +12,7 @@ const Contact = () => {
           <h4>Contact information</h4>
             <p>text</p>
             <div className='icon-text'>
-              <i className='icon'></i>
+            <i class="fa fa-phone" aria-hidden="true"></i>
               <span>text</span>
             </div>
             <div className='social-media'>
