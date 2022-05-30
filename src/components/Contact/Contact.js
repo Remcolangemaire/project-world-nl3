@@ -1,12 +1,13 @@
 import React from 'react'
 import './contact.scss'
 import { MdEmail, MdCall, MdLocationOn, MdFacebook } from "react-icons/md";
+import { Col } from 'react-bootstrap';
 
 const Contact = () => {
   return (
     <>
         <h1>Contact us</h1>
-        <p>lorem ipsum</p>
+        <p className='sub-title'>lorem ipsum</p>
 
         <div id="contact-container">
           <div className="contact-info">
@@ -17,6 +18,8 @@ const Contact = () => {
             <div className="icon-text">
               <MdCall/>
               <span>+31-623493617</span>
+            </div>
+            <div className="icon-text">
               <MdCall/>
               <span>+31-610695887</span>
             </div>
@@ -41,12 +44,20 @@ const Contact = () => {
             </div>
         </div>
         <form>
-
+          <div className='col'>
+            <div className='form-group'>
+              <label>First Name</label>
+              <input type='text'/>
+            </div>
+            <div className='form-group'>
+              <label>First Name</label>
+              <input type='text'/>
+            </div>
+          </div>
         </form>
       </div>
     </>
   )
 }
 
-export default Contact
-
+export default Contact;
