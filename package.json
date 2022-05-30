@@ -1,5 +1,6 @@
 {
-  "name": "navbar",
+  "name": "project-world-nl3",
+  "homepage": "https://Remcolangemaire.github.io/project-world-nl3",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,6 +20,7 @@
     "bootstrap": "^5.1.3",
     "emailjs": "^3.8.1",
     "emailjs-com": "^3.2.0",
+    "gh-pages": "^4.0.0",
     "markdown-to-jsx": "^7.1.7",
     "node-sass": "^6.0.1",
     "react": "^17.0.2",
@@ -38,7 +40,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
