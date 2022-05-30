@@ -6,7 +6,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import classes from "./Header.module.scss";
 import { Link, useHistory } from "react-router-dom";
 
-import logo from '/Users/remcolangemaire/Documents/GitHub/project-world-nl3/src/images/Logo .PNG'
+import logo from '../../images/Logo .PNG'
 
 const Header = () => {
     const history = useHistory();
@@ -56,28 +56,27 @@ const Header = () => {
                 >
                     <ul>
                         <li>
-                            <Link to="/page-Services
-                            " onClick={menuToggleHandler}>
+                            <Link to="/page-Services" onClick={menuToggleHandler}>
                                 Services
                             </Link>
                         </li>
                         <li>
-                            <Link to="/page-one" onClick={menuToggleHandler}>
+                            <Link to="/page-shop" onClick={menuToggleHandler}>
                                 Shop
                             </Link>
                         </li>
                         <li>
-                            <Link to="/page-two" onClick={menuToggleHandler}>
+                            <Link to="/page-blog" onClick={menuToggleHandler}>
                                 Blog
                             </Link>
                         </li>
                         <li>
-                            <Link to="/page-three" onClick={menuToggleHandler}>
+                            <Link to="/page-about" onClick={menuToggleHandler}>
                                 About
                             </Link>
                         </li>
                         <li>
-                            <Link to="/page-three" onClick={menuToggleHandler}>
+                            <Link to="/page-contact" onClick={menuToggleHandler}>
                                 Contact
                             </Link>
                         </li>

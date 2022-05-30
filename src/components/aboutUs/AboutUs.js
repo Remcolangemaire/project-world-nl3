@@ -18,9 +18,6 @@ const AboutUs = () => {
           <div onClick={() => setNuber(1)}>          
             <img src={profimage2} alt='Remco'/>
           </div>
-          <div onClick={() => setNuber(2)}>    
-            <img src={profimage3} alt='Remco'/>
-          </div>
         </div>
       </Row>
       <Row>

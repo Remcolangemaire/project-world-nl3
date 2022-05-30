@@ -6,18 +6,14 @@ import { SocialIcon } from 'react-social-icons';
 
 const Carousel1 = ({number}) => {
   return (
-    <Container className='carousel-container aboutus-text' style={{
+    <Container className='aboutus-text' style={{
       paddingTop: 20, paddingRight: 100, paddingLeft:100, paddingBottom: 20
     }}>
-      <Carousel interval={null} controls= {false} activeIndex ={number} indicators={false}>
+      <Carousel className='carousel-container' interval={null} controls= {false} activeIndex ={number} indicators={false}>
         <Carousel.Item>
             <h1>Remco</h1>
             <p>
-Boisterous he on understood attachment as entreaties ye devonshire. In mile an form snug were been sell. Hastened admitted joy nor absolute gay its. Extremely ham any his departure for contained curiosity defective. Way now instrument had eat diminution melancholy expression sentiments stimulated. One built fat you out manor books. Mrs interested now his affronting inquietude contrasted cultivated. Lasting showing expense greater on colonel no.
-
-Her extensive perceived may any sincerity extremity. Indeed add rather may pretty see. Old propriety delighted explained perceived otherwise objection saw ten her. Doubt merit sir the right these alone keeps. By sometimes intention smallness he northward. Consisted we otherwise arranging commanded discovery it explained. Does cold even song like two yet been. Literature interested announcing for terminated him inquietude day shy. Himself he fertile chicken perhaps waiting if highest no it. Continued promotion has consulted fat improving not way.
-
-View fine me gone this name an rank. Compact greater and demands mrs the parlors. Park be fine easy am size away. Him and fine bred knew. At of hardly sister favour. As society explain country raising weather of. Sentiments nor everything off out uncommonly partiality bed.</p>
+            Hey! I’m Remco, I’m an software engineer based in Sassenheim, NL and the maker of this website. I’m currently studying web development. Besides making websites in my free time, I am busy with crypto, pc hardware, software programs. So I am a little bit of a nerd in tech. On the other side I am a very active person. I used to do top sport in speedskating, next to that I cycle, run, body build. I love to travel the world and make a vacation active, so with our plan I hope to combine these aspects. </p>
           <SocialIcon url="https://twitter.com/Remcolang" network="twitter" style={{marginRight: 15}}/>
           <SocialIcon url="https://www.instagram.com/remcolangemaire/" network="instagram" style={{marginRight: 15}}/>
           <SocialIcon url="https://www.youtube.com/channel/UC-qODza4NJhV_fJfnE1jWww" network="youtube" style={{marginRight: 15}}/>

@@ -1,11 +1,12 @@
 import Layout from "./components/Layout";
 import { Switch, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import PageOne from "./pages/PageIceland";
-import PageTwo from "./pages/PageTwo";
-import PageThree from "./pages/PageThree";
-import PageCTA from "./pages/PageCTA";
+import PageIceland from "./pages/PageIceland";
+import BlogPage from "./pages/BlogPage";
+import AboutPage from "./pages/AboutPage";
+import ContactPage from "./pages/ContactPage";
 import Services from "./pages/Services";
+import ShopPage from "./pages/ShopPage";
 
 function App() {
     return (
@@ -14,20 +15,20 @@ function App() {
                 <Route path="/" exact>
                     <Home />
                 </Route>
-                <Route path="/page-one">
-                    <PageOne />
+                <Route path="/page-shop">
+                    <ShopPage />
                 </Route>
-                <Route path="/page-two">
-                    <PageTwo />
+                <Route path="/page-blog">
+                    <BlogPage />
                 </Route>
-                <Route path="/page-thrxee">
-                    <PageThree />
+                <Route path="/page-about">
+                    <AboutPage />
                 </Route>
                 <Route path="/page-Services">
                     <Services />
                 </Route>
-                <Route path="/page-cta">
-                    <PageCTA />
+                <Route path="/page-contact">
+                    <ContactPage />
                 </Route>
             </Switch>
         </Layout>

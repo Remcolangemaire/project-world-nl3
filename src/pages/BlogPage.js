@@ -1,7 +1,7 @@
 import React from "react";
 import Blog from "../components/blog/Blog";
 
-const PageTwo = () => {
+const BlogPage = () => {
     return (
         <div >
             <Blog/>
@@ -9,4 +9,4 @@ const PageTwo = () => {
     );
 };
 
-export default PageTwo;
+export default BlogPage;
