@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/project-world-nl3/static/css/main.31c2a353.chunk.css",
+    "main.js": "/project-world-nl3/static/js/main.1327115c.chunk.js",
+    "main.js.map": "/project-world-nl3/static/js/main.1327115c.chunk.js.map",
+    "runtime-main.js": "/project-world-nl3/static/js/runtime-main.1d71747b.js",
+    "runtime-main.js.map": "/project-world-nl3/static/js/runtime-main.1d71747b.js.map",
+    "static/css/2.d8cb5cde.chunk.css": "/project-world-nl3/static/css/2.d8cb5cde.chunk.css",
+    "static/js/2.4d5fccf6.chunk.js": "/project-world-nl3/static/js/2.4d5fccf6.chunk.js",
+    "static/js/2.4d5fccf6.chunk.js.map": "/project-world-nl3/static/js/2.4d5fccf6.chunk.js.map",
+    "index.html": "/project-world-nl3/index.html",
+    "static/css/2.d8cb5cde.chunk.css.map": "/project-world-nl3/static/css/2.d8cb5cde.chunk.css.map",
+    "static/css/main.31c2a353.chunk.css.map": "/project-world-nl3/static/css/main.31c2a353.chunk.css.map",
+    "static/js/2.4d5fccf6.chunk.js.LICENSE.txt": "/project-world-nl3/static/js/2.4d5fccf6.chunk.js.LICENSE.txt",
+    "static/media/front.scss": "/project-world-nl3/static/media/IMG_0639.88a6c227.jpg",
+    "static/media/homeMap.scss": "/project-world-nl3/static/media/DSC_8988-2.716e2bb2.jpg",
+    "static/media/blog.scss": "/project-world-nl3/static/media/IMG_0557.376e7d95.jpg",
+    "static/media/IMG_7993.2168973f.png": "/project-world-nl3/static/media/IMG_7993.2168973f.png",
+    "static/media/IMG_8272.1f412ec6.png": "/project-world-nl3/static/media/IMG_8272.1f412ec6.png",
+    "static/media/pages.scss": "/project-world-nl3/static/media/IMG_8895.9b7bfe39.jpg",
+    "static/media/aboutUs.scss": "/project-world-nl3/static/media/IMG_9552.5f77fa2e.jpg",
+    "static/media/IMG_9761.60041793.jpg": "/project-world-nl3/static/media/IMG_9761.60041793.jpg",
+    "static/media/Logo .c9447ace.PNG": "/project-world-nl3/static/media/Logo .c9447ace.PNG",
+    "static/media/home.scss": "/project-world-nl3/static/media/Untitled-3.ed1d3bca.png",
+    "static/media/blog-post.1.48e3a9da.md": "/project-world-nl3/static/media/blog-post.1.48e3a9da.md",
+    "static/media/blog-post.2.b27a7ed0.md": "/project-world-nl3/static/media/blog-post.2.b27a7ed0.md",
+    "static/media/blog-post.3.0068a2ed.md": "/project-world-nl3/static/media/blog-post.3.0068a2ed.md"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1d71747b.js",
+    "static/css/2.d8cb5cde.chunk.css",
+    "static/js/2.4d5fccf6.chunk.js",
+    "static/css/main.31c2a353.chunk.css",
+    "static/js/main.1327115c.chunk.js"
+  ]
+}
