@@ -1,7 +1,7 @@
 import React from 'react'
 import './contact.scss'
 import { MdEmail, MdCall, MdLocationOn, MdFacebook } from "react-icons/md";
-import { Col } from 'react-bootstrap';
+// import { Col } from 'react-bootstrap';
 
 const Contact = () => {
   return (
@@ -31,7 +31,7 @@ const Contact = () => {
               <MdLocationOn/>
               <span>435 Grand Ave,Ridgewood,NY 11385</span>
             </div>
-            <div className="social-media">
+            {/* <div className="social-media">
               <a href="#" className="icon-circle">
                 <MdFacebook className='iconsize'/>
               </a>
@@ -41,7 +41,7 @@ const Contact = () => {
               <a href="#" className="icon-circle">
                 <MdFacebook className='iconsize'/>
               </a>
-            </div>
+            </div> */}
         </div>
         <form>
           <div className='col'>
