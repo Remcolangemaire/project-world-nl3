@@ -16,7 +16,6 @@ import post3 from './blog-post.3.md';
 import './blog.scss'
 import imgice from '../../images/IMG_0557.jpg'
 import imgice2 from '../../images/IMG_0639.jpg'
-import IcelandPost from '../../pages/PageIceland'
 
 const mainFeaturedPost = {
   title: 'This is our blog',
@@ -88,8 +87,9 @@ export default function Blog() {
                   <FeaturedPost key={post.title} post={post} />
                 ))}
               </Grid>
+              <hr></hr>
               <Grid container spacing={5} sx={{ mt: 3 }}>
-                <Main title="From the firehose" posts={posts} />
+                <Main />
                 <Sidebar
                   title={sidebar.title}
                   description={sidebar.description}

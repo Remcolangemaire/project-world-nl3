@@ -4,9 +4,11 @@ import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import Divider from '@mui/material/Divider';
 import Markdown from './Markdown';
+import IcelandPost from '../../pages/PageIceland'
 
-function Main(props) {
-  const { posts, title } = props;
+
+function Main() {
+  // const { posts, title } = props;
 
   return (
     <Grid
@@ -19,22 +21,14 @@ function Main(props) {
         },
       }}
     >
-      <Typography variant="h6" gutterBottom>
-        {title}
-      </Typography>
-      <Divider />
-      {posts.map((post) => (
-        <Markdown className="markdown" key={post.substring(0, 40)}>
-          {post}
-        </Markdown>
-      ))}
+      <IcelandPost/>
     </Grid>
   );
 }
 
-Main.propTypes = {
-  posts: PropTypes.arrayOf(PropTypes.string).isRequired,
-  title: PropTypes.string.isRequired,
-};
+// Main.propTypes = {
+//   posts: PropTypes.arrayOf(PropTypes.string).isRequired,
+//   title: PropTypes.string.isRequired,
+// };
 
 export default Main;
