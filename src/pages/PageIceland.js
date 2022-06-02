@@ -7,7 +7,6 @@ import FotoVerRight from "../components/landPage/FotoVerRight";
 import FotoVerLeft from "../components/landPage/FotoVerLeft";
 import imgA from '../images/IMG_0557.jpg'
 import imgG from '../images/DJI_0040.jpg'
-import imgJ from '../images/IMG_9761.jpg'
 import imgH from '../images/DSC_8988-2.jpg'
 const PageOne = () => {
     return (
@@ -46,7 +45,7 @@ const PageOne = () => {
                 <hr></hr>
                 <div className=" componenten-container">
                     <FotoVerRight
-                    img1= {imgJ}
+                    img1= {imgG}
                     img2= {imgA}
                     alt="hoi"
                     title1="Kopstuk "
@@ -68,7 +67,7 @@ const PageOne = () => {
                 <hr></hr>
                 <div className=" componenten-container">
                     <FotoVerLeft
-                    img1= {imgJ}
+                    img1= {imgG}
                     img2= {imgA}
                     alt="hoi"
                     title1="Kopstuk "

@@ -4,7 +4,6 @@ import Carousel1 from '../cards/Carousel1'
 import { Row } from 'react-bootstrap'
 import profimage1 from '../../images/IMG_7993.png'
 import profimage2 from '../../images/IMG_8272.png'
-import profimage3 from '../../images/IMG_7993.png'
 
 const AboutUs = () => {
   const [number, setNuber] = useState(0);
