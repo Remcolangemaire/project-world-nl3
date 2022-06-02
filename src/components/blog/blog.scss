@@ -14,4 +14,9 @@
 
 .blog-container{
     padding-top: $headerHeight;
+
+    hr{
+        color: white;
+        font-weight: bold;
+    }
 }

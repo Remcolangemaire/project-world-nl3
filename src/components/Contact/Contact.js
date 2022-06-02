@@ -5,10 +5,8 @@ import { MdEmail, MdCall, MdLocationOn, MdFacebook } from "react-icons/md";
 
 const Contact = () => {
   return (
-    <>
+    <div className='contactcont'>
         <h1>Contact us</h1>
-        <p className='sub-title'>lorem ipsum</p>
-
         <div id="contact-container">
           <div className="contact-info">
             <h4>
@@ -25,23 +23,19 @@ const Contact = () => {
             </div>
             <div className="icon-text">
               <MdEmail/>
-              <span>admin@billys.com</span>
+              <span>projectworldnl@gmail.com</span>
             </div>
-            <div className="icon-text">
-              <MdLocationOn/>
-              <span>435 Grand Ave,Ridgewood,NY 11385</span>
+            <div className="social-media">
+              <a href="#" className="icon-circle">
+                <MdFacebook className='iconsize'/>
+              </a>
+              <a href="#" className="icon-circle">
+                <MdFacebook className='iconsize'/>
+              </a>
+              <a href="#" className="icon-circle">
+                <MdFacebook className='iconsize'/>
+              </a>
             </div>
-            {/* <div className="social-media">
-              <a href="#" className="icon-circle">
-                <MdFacebook className='iconsize'/>
-              </a>
-              <a href="#" className="icon-circle">
-                <MdFacebook className='iconsize'/>
-              </a>
-              <a href="#" className="icon-circle">
-                <MdFacebook className='iconsize'/>
-              </a>
-            </div> */}
         </div>
         <form>
           <div className='col'>
@@ -56,7 +50,7 @@ const Contact = () => {
           </div>
         </form>
       </div>
-    </>
+    </div>
   )
 }
 

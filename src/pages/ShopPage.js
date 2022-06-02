@@ -2,7 +2,9 @@ import React from 'react'
 
 function ShopPage() {
   return (
-    <div>ShopPage</div>
+    <div className="background-shop">
+      <h1>Coming soon</h1>
+    </div>
   )
 }
 
