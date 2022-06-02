@@ -5,10 +5,8 @@ import { MdEmail, MdCall, MdLocationOn, MdFacebook } from "react-icons/md";
 
 const Contact = () => {
   return (
-    <>
+    <div className='contactcont'>
         <h1>Contact us</h1>
-        <p className='sub-title'>lorem ipsum</p>
-
         <div id="contact-container">
           <div className="contact-info">
             <h4>
@@ -56,7 +54,7 @@ const Contact = () => {
           </div>
         </form>
       </div>
-    </>
+    </div>
   )
 }
 

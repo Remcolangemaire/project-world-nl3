@@ -14,12 +14,15 @@ import post1 from './blog-post.1.md';
 import post2 from './blog-post.2.md';
 import post3 from './blog-post.3.md';
 import './blog.scss'
+import imgice from '../../images/IMG_0557.jpg'
+import imgice2 from '../../images/IMG_0639.jpg'
+import IcelandPost from '../../pages/PageIceland'
 
 const mainFeaturedPost = {
   title: 'This is our blog',
   description:
-    "We post here our newest blogs, this is just everything in one page. Or you can click on a country below, and check out the blog for that country",
-  image: 'https://source.unsplash.com/random',
+    "We post here our newest blogs, this is just everything in one page. You can click on a country below, and check out the blog for that country",
+  image: imgice2,
   imageText: 'main image description',
   linkText: 'Continue reading…',
 };
@@ -29,16 +32,16 @@ const featuredPosts = [
     title: 'Featured post',
     date: 'Nov 12',
     description:
-      'This is a wider card with supporting text below as a natural lead-in to additional content.',
-    image: 'https://source.unsplash.com/random',
+      'This is a wider card where we show iceland content.',
+    image: imgice,
     imageLabel: 'Image Text',
   },
   {
     title: 'Post title',
     date: 'Nov 11',
     description:
-      'This is a wider card with supporting text below as a natural lead-in to additional content.',
-    image: 'https://source.unsplash.com/random',
+      'This is a wider card where we show bali content.',
+    image: imgice,
     imageLabel: 'Image Text',
   },
 ];

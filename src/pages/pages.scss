@@ -1,5 +1,4 @@
 .background-contact{
-    background-color: blue;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,5 +6,27 @@
     min-height: 100vh;
     width: 100%;
     background-image: url(../images/IMG_8895.jpg);
+    background-size: cover;
+}
+.background-services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(../images/DJI_0044.jpg);
+    background-size: cover;
+}
+.background-shop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(../images/DJI_0044.jpg);
     background-size: cover;
 }

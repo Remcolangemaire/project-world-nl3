@@ -1,9 +1,10 @@
 import React from "react";
+import './pages.scss'
 
 const Services = () => {
     return (
-        <div >
-            <h1>Hier komt iets</h1>
+        <div className="background-services">
+            <h1>Coming soon</h1>
         </div>
     );
 };
