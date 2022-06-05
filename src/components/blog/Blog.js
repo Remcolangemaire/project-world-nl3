@@ -10,10 +10,7 @@ import MainFeaturedPost from './MainFeaturedPost';
 import FeaturedPost from './FeaturedPost';
 import Main from './Main';
 import Sidebar from './Sidebar';
-import post1 from './blog-post.1.md';
-import post2 from './blog-post.2.md';
-import post3 from './blog-post.3.md';
-import './blog.scss'
+import './blog.scss';
 import imgice from '../../images/IMG_0557.jpg'
 import imgice2 from '../../images/IMG_0639.jpg'
 
@@ -45,12 +42,7 @@ const featuredPosts = [
   },
 ];
 
-const posts = [post1, post2, post3];
-
 const sidebar = {
-  title: 'About',
-  description:
-    'Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.',
   archives: [
     { title: 'March 2020', url: '#' },
     { title: 'February 2020', url: '#' },
@@ -63,11 +55,6 @@ const sidebar = {
     { title: 'June 1999', url: '#' },
     { title: 'May 1999', url: '#' },
     { title: 'April 1999', url: '#' },
-  ],
-  social: [
-    { name: 'GitHub', icon: GitHubIcon },
-    { name: 'Twitter', icon: TwitterIcon },
-    { name: 'Facebook', icon: FacebookIcon },
   ],
 };
 
@@ -91,10 +78,7 @@ export default function Blog() {
               <Grid container spacing={5} sx={{ mt: 3 }}>
                 <Main />
                 <Sidebar
-                  title={sidebar.title}
-                  description={sidebar.description}
                   archives={sidebar.archives}
-                  social={sidebar.social}
                 />
               </Grid>
             </main>
