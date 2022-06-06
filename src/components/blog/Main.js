@@ -14,7 +14,7 @@ function Main() {
     <Grid
       item
       xs={12}
-      md={8}
+      md={11}
       sx={{
         '& .markdown': {
           py: 3,
