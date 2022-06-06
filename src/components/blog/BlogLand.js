@@ -15,6 +15,7 @@ const mainFeaturedPost = {
     "We post here our newest blogs, this is just everything in one page. You can click on a country below, and check out the blog for that country",
   image: imgice2,
   imageText: 'main image description',
+  linkText: 'Continue reading…',
 };
 
 const sidebar = {
@@ -35,7 +36,7 @@ const sidebar = {
 
 const theme = createTheme();
 
-export default function Blog() {
+export default function BlogLand() {
   return (
     <div className='blog-background'>
       <div className='blog-container'>
@@ -45,7 +46,12 @@ export default function Blog() {
             <main>
               <MainFeaturedPost post={mainFeaturedPost} />
               <hr></hr>
-              <Main />
+              <Grid container spacing={5} sx={{ mt: 3 }}>
+                <Main />
+                <Sidebar
+                  archives={sidebar.archives}
+                />
+              </Grid>
             </main>
           </Container>
         </ThemeProvider>
