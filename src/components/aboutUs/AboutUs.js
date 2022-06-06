@@ -15,7 +15,7 @@ const AboutUs = () => {
             <img src={profimage1} alt='Remco'/>
           </div>
           <div onClick={() => setNuber(1)}>          
-            <img src={profimage2} alt='Remco'/>
+            <img src={profimage2} alt='Jord'/>
           </div>
         </div>
       </Row>
