@@ -12,7 +12,7 @@
 }
 
 .content-containers{
-    padding-top: 12rem;
+    padding-top: 18vh;
 }
 .imgass{
     img{
@@ -21,5 +21,43 @@
         display: flex;
         object-fit: contain;
         float: right;
+    }
+    .carde {
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .carde:hover .details {
+        opacity: 1;
+        height: 100%;
+        border-radius: 100%;
+    }
+
+    .details {
+        border-radius: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 0%;
+        background: rgba(0, 0, 0, 0.9);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        transition: 0.5s ease;
+    }
+
+    .details h4 {
+        margin: 0;
+        color: white;
+    }
+
+    .details p {
+        color: white;
+        margin: 2px 0;
+        font-size: 10px;
     }
 }

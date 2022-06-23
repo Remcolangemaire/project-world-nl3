@@ -6,7 +6,6 @@ import { MdEmail, MdCall, MdLocationOn, MdFacebook} from "react-icons/md";
 const Contact = () => {
   return (
     <div className='contactcont'>
-        <h1>Contact us</h1>
         <div id="contact-container">
           <div className="contact-info">
             <h4>
