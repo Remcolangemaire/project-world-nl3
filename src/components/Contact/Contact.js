@@ -11,15 +11,25 @@ const Contact = () => {
             <h4>
             Contact Information
             </h4>
-            <p>Fill up the form and then click send</p>
+            <h5>Remco Langemaire:</h5>
             <div className="icon-text">
               <MdCall/>
               <span>+31-623493617</span>
             </div>
             <div className="icon-text">
+            <MdEmail/>
+              <span>R.Langemaire@outlook.com</span>
+            </div>
+            <h5>Jord Systema:</h5>
+            <div className="icon-text">
               <MdCall/>
               <span>+31-610695887</span>
             </div>
+            <div className="icon-text">
+            <MdEmail/>
+              <span>JordSystema@gmail.com</span>
+            </div>
+            <h5>contact us</h5>
             <div className="icon-text">
               <MdEmail/>
               <span>projectworldnl@gmail.com</span>

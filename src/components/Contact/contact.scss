@@ -35,7 +35,13 @@
             font-size: 2rem;
             font-weight: 500;
             margin: 0;
-            margin-bottom: 2rem;
+            margin-bottom: 1rem;
+        }
+        h5{
+            font-weight: 500;
+            margin: 0;
+            margin-bottom: .5rem;
+            margin-top: 1rem;
         }
         p{
             color: rgba(255,255,255,.7);
@@ -44,6 +50,7 @@
             margin-bottom: 2rem;
         }
         .social-media{
+            margin-top: 1rem;
             display:flex;
             width:50%;
             justify-content:space-between;
@@ -105,7 +112,7 @@
                 display: flex;
                 justify-content: flex-start;
                 margin-bottom: 2rem;
-                .radio-button{
+                .radio-buttons{
                     margin-right: 20px;
                 }
                 label{

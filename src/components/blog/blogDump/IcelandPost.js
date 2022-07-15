@@ -1,14 +1,14 @@
 import React from "react";
-import FotoRight from "../components/landPage/FotoRight";
-import './pageIceland.scss'
-import FotoLeft from "../components/landPage/FotoLeft";
-import FotoVerRight from "../components/landPage/FotoVerRight";
-import FotoVerLeft from "../components/landPage/FotoVerLeft";
-import imgA from '../images/IMG_0557.jpg'
-import imgG from '../images/DJI_0040.jpg'
-import imgH from '../images/DSC_8988-2.jpg'
-import imgJ from '../images/IMG_0557.jpg'
-const PageOne = () => {
+import FotoRight from "../../../components/landPage/FotoRight";
+import './blogDump.scss'
+import FotoLeft from "../../../components/landPage/FotoLeft";
+import FotoVerRight from "../../../components/landPage/FotoVerRight";
+import FotoVerLeft from "../../../components/landPage/FotoVerLeft";
+// import imgA from '../images/IMG_0557.jpg'
+import imgG from '../../../images/DJI_0040.jpg'
+import imgH from '../../../images/DSC_8988-2.jpg'
+import imgJ from '../../../images/IMG_0557.jpg'
+const IcelandPost = () => {
     return (
         <div className="iceland-contentcontainer">
             <div className=" componenten-container">
@@ -64,4 +64,4 @@ const PageOne = () => {
     )
 };
 
-export default PageOne;
+export default IcelandPost;

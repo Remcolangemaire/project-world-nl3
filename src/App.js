@@ -1,7 +1,6 @@
 import Layout from "./components/Layout";
 import { Switch, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import PageIceland from "./pages/PageIceland";
 import BlogPage from "./pages/BlogPage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
