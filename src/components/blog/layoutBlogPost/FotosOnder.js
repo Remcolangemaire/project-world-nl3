@@ -1,4 +1,5 @@
 import React from 'react'
+import './layoutBlogPost.scss'
 import { Col, Container, Row } from 'react-bootstrap'
 import TextCard from '../cards/TextCard'
 import CarouselF2 from '../carousels/CarouselF2'

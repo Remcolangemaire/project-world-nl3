@@ -1,16 +1,16 @@
 import React from "react";
-import FotoRight from "../../../components/landPage/FotoRight";
+import FotoRight from "../layoutBlogPost/FotoRight";
 import './blogDump.scss'
-import FotoLeft from "../../../components/landPage/FotoLeft";
-import FotoVerRight from "../../../components/landPage/FotoVerRight";
-import FotoVerLeft from "../../../components/landPage/FotoVerLeft";
+import FotoLeft from "../layoutBlogPost/FotoLeft";
+import FotoVerRight from "../layoutBlogPost/FotoVerRight";
+import FotoVerLeft from "../layoutBlogPost/FotoVerLeft";
 // import imgA from '../images/IMG_0557.jpg'
 import imgG from '../../../images/DJI_0040.jpg'
 import imgH from '../../../images/DSC_8988-2.jpg'
 import imgJ from '../../../images/IMG_0557.jpg'
 const IcelandPost = () => {
     return (
-        <div className="iceland-contentcontainer">
+        <div className="iceland-contentcontainer blogDump">
             <div className=" componenten-container">
                 <FotoRight
                 img1= {imgG}
@@ -21,7 +21,6 @@ const IcelandPost = () => {
                 Lorem ipsum dolor sit amet. Qui illo sunt ut consequatur quia svitae quibusdaiores ut ipsum consequatur aut totam temporibus. Hic consequatur nihil ut obcaecati odit aut autem praesentium."
                 />
             </div>
-            <hr></hr>
             <div className=" componenten-container">
                 <FotoLeft
                 img1= {imgG}
@@ -32,7 +31,6 @@ const IcelandPost = () => {
                 Lorem ipsum dolor sit amet. Qui illo sunt ut consequatur quia svitae quibusdaiores ut ipsum consequatur aut totam temporibus. Hic consequatur nihil ut obcaecati odit aut autem praesentium."
                 />
             </div>
-            <hr></hr>
             <div className=" componenten-container">
                 <FotoVerRight
                 img1= {imgJ}
@@ -46,7 +44,6 @@ const IcelandPost = () => {
                 Lorem ipsum dolor sit amet. Qui illo sunt ut consequatur quia svitae quibusdaiores ut ipsum consequatur aut totam temporibus. Hic consequatur nihil ut obcaecati odit aut autem praesentium."
                 />
             </div>
-            <hr></hr>
             <div className=" componenten-container">
                 <FotoVerLeft
                 img1= {imgJ}

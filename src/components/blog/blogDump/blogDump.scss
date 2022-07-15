@@ -1,7 +1,15 @@
-img{
-    height: 90%;
-    width: 100%;
-    display: flex;
-    object-fit: contain;
-    float: right;
+.iceland-contentcontainer{
+    .componenten-container{
+        padding-bottom: 3rem;
+    }
+}
+.blogDump{
+    img{
+        height: 90%;
+        width: 100%;
+        display: flex;
+        object-fit: contain;
+        float: right;
+    }
+
 }
